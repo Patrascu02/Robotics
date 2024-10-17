@@ -1,8 +1,5 @@
 #include <Arduino.h>
 void setup() {
-	pinMode(13,OUTPUT);
-	pinMode(12,OUTPUT);
-	pinMode(11,OUTPUT);
 	pinMode(10,OUTPUT);
 	pinMode(9,OUTPUT);
 	pinMode(8,OUTPUT);
@@ -21,8 +18,9 @@ if(digitalRead(2) == LOW){
     digitalWrite(5,LOW);            //Led-ul RGB devine rosu cand incepe procesul
     digitalWrite(6,HIGH);
     for (int i = 0; i < 4; i++) {
-        if(digitalRead(3) == LOW){
-            loop();
+        if(digitalRead(3)==LOW){
+            o=10;i=0;ok=0;
+            break;
         }
        int q=0;
        while(q<3 && o >=7){             //Incep led-urile sa se incarce
@@ -30,15 +28,16 @@ if(digitalRead(2) == LOW){
         delay(250);
         digitalWrite(o, LOW);
         delay(250);
-        q++;}
+        q++;
+        }
         if(o >=7)
             digitalWrite(o, HIGH  );        //Ramane ultimul led aprins
         o--;
 
         if(digitalRead(3) == LOW){          
-            delay(60);
+            delay(100);
             if(digitalRead(3) == LOW){
-                ok=1;
+                i=0;o=10;ok=1;
             }
             
         }
@@ -57,7 +56,7 @@ if(digitalRead(2) == LOW){
             delay(300);
         }
     }else{
-        digitalWrite(10,LOW);
+            digitalWrite(10,LOW);
             digitalWrite(9,LOW);
             digitalWrite(8,LOW);
             digitalWrite(7,LOW);
