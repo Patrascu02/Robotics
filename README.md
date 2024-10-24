@@ -43,7 +43,7 @@ Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
 - 4x LEDs (to simulate the percentage of charge)
 - 1x RGB LED (for free or busy status)
 - 2x Buttons (for charging start and stop charging)
-- 8x Resistors (6x 220/330ohm, 2x 1K)
+- 9x Resistors (6x 220/330ohm, 2x 1K)
 - Breadboard
 - Connecting Lines
 
