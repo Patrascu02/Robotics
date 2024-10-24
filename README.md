@@ -72,21 +72,17 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 [Virtual Simulation](https://wokwi.com/projects/412558654532609025)
 </br>
 
-[Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/code/project%201/main.cpp)
+[Code](https://github.com/KanekiLor/Robotics/blob/main/Tema1/Tema1/src/main.c)
 </br>
 
-[Video of the physical setup](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/WhatsApp%20Video%202024-10-23%20at%2023.00.44_58cbeca5.mp4)
+[Video of the physical setup](https://github.com/KanekiLor/Robotics/blob/main/Tema1/Tema1/Media%20Tema1/Robotica-Tema-1.mp4)
 </br>
 
 #### Photo Gallery
 
 <div align="center">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(1).jpg" alt="Image 1" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(2).jpg" alt="Image 2" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(3).jpg" alt="Image 3" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(4).jpg" alt="Image 4" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(5).jpg" alt="Image 5" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(6).jpg" alt="Image 6" width="300">  
+  <img src="https://github.com/KanekiLor/Robotics/blob/main/Tema1/Tema1/Media%20Tema1/Xl6Uqsf.jpeg" alt="Image 1" width="300">
+  <img src="https://github.com/KanekiLor/Robotics/blob/main/Tema1/Tema1/Media%20Tema1/bqEjFGb.jpeg" alt="Image 2" width="300"> 
 </div>
 
 </br>
