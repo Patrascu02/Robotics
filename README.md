@@ -88,3 +88,88 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 </br>
 </br>
 </details>
+### PROJECT 2: ⁠TypeRacer Game
+<details>
+<summary>TASK</summary> 
+ 
+  
+<img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(1).jpg" align="right" alt="Diagram" width="400">
+
+#### Description
+
+In this theme you will create a game similar to TypeRacer.
+
+</br>
+
+#### Components Used
+
+- Arduino UNO (ATmega328P microcontroller)
+- 1x RGB LED (to signal if the correct word is misspelled or not)
+- 2x Buttons (for round start/stop and difficulty selection)
+- 5x Resistors (3x 220/330 ohm, 2x 1000 ohm)
+- Breadboard
+- Connecting threads
+
+</br>
+
+#### Technical Task
+
+RGB LED - Status indicator:
+
+In the sleep state, the LED will be white.
+When the start button is pressed, the LED will flash for 3 seconds, indicating a countdown until the start of the round.
+During a round: The LED will be green if the text entered is correct and will turn red if there is an error.
+(1p) Start/Stop button:
+
+Sleep Mode: If the game is paused, pressing the button initiates a new round after a 3-second countdown.
+During a round: If the round is active, pressing the button will stop it immediately.
+(1p) Difficulty button:
+
+The difficulty button controls the speed at which words appear and can only be used in idle mode.
+With each press, the difficulty changes by cycling between: (Easy, Medium, Hard).
+When changing the difficulty, a message is sent via serial: "Easy/Medium/Hard mode on!".
+For handling button presses, use debouncing and interrupts. Timers will be used to set the frequency of occurrence of words. A useful site, which also includes a video on using interrupts and timers in Arduino, is available here.
+(3p) Word generation:
+
+A word dictionary will be created.
+During a round, the words will be displayed in the terminal in a random order.
+If the current word was spelled correctly, a new word will be displayed immediately. If not, a new word will appear after the time interval set by the difficulty.
+To generate random numbers, you must use the random() function.
+(1p) Other observations:
+
+The allotted time for a round is 30 seconds.
+At the end of each round, the terminal will display how many words were spelled correctly.
+</br>
+</br>
+</br>
+
+</details>
+
+<details>
+<summary>IMPLEMENTATION</summary> 
+
+</br>
+
+[Virtual Simulation](https://wokwi.com/projects/413755217734885377)
+</br>
+
+[Code](https://github.com/KanekiLor/Robotics/blob/main/Tema2%20-%20Cristache%20Rares-Stefan/Tema2/src/main.cpp)
+</br>
+
+[Video of the physical setup](https://imgur.com/gallery/introduction-to-robotics-project-2-video-aTbcrqy)
+</br>
+
+#### Photo Gallery
+
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; max-width: 450px;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(2).jpg" alt="Image 1" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(3).jpg" alt="Image 2" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(4).jpg" alt="Image 3" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(5).jpg" alt="Image 4" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(6).jpg" alt="Image 5" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(7).jpg" alt="Image 6" width="250" height="250" style="object-fit: cover;">
+</div>
+
+</br>
+</br>
+</details>
