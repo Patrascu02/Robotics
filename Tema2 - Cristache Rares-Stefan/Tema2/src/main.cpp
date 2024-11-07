@@ -83,8 +83,10 @@ void Blink() {
 
   if (currentMillis - lastBlinkTime >= 1000 && count > 0) {
     lastBlinkTime = currentMillis;
-    Serial.println(count);
-    count--;
+      while(count) {
+        Serial.println(count);
+        count--;
+      }
     ledState = !ledState;
     digitalWrite(ledRosu, ledState);
     digitalWrite(ledVerde, ledState);
