@@ -88,7 +88,7 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 </br>
 </br>
 </details>
-### PROJECT 2: ⁠TypeRacer Game
+#### PROJECT 2: ⁠TypeRacer Game
 <details>
 <summary>TASK</summary> 
  
