@@ -158,7 +158,7 @@ At the end of each round, the terminal will display how many words were spelled 
 [Code](https://github.com/KanekiLor/Robotics/blob/main/Tema2%20-%20Cristache%20Rares-Stefan/Tema2/src/main.cpp)
 </br>
 
-[Video of the physical setup](https://imgur.com/gallery/introduction-to-robotics-project-2-video-aTbcrqy)
+[Video of the physical setup](https://imgur.com/a/Cwh2F4E)
 </br>
 
 #### Photo Gallery
