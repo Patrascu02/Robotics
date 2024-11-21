@@ -175,6 +175,7 @@ At the end of each round, the terminal will display how many words were spelled 
 </br>
 </br>
 </details>
+
 ### PROJECT 3: ⁠Reaction Game using 2 Arduino's
 <details>
 <summary>TASK</summary> 
